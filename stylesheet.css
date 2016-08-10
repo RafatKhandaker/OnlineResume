@@ -42,6 +42,54 @@ body{
 
 		/* trying to align these images to the right */
 			#skills{
-				width: 1200px;
 				padding-left: 700px;
 			}
+		#background3{
+      		background-image: url(images/nycskyline.jpeg);
+      		height: 650px;
+      		width: 1200px;
+      		background-attachment: fixed;
+      		background-repeat: no-repeat;
+      		background-position: center;
+      		margin-left: auto;
+      		margin-right: auto;
+		}
+			#container{
+				position: left;
+				width: 400px;
+				height: 650px;
+				background-color: #f5deb3;	
+			}
+				h1{
+					text-align: center;
+					font-weight: bold;
+					font: Georgia;
+				}
+				h3{
+					text-align: center;	
+				}
+				h4{
+					text-align: center;
+				}
+				p{
+					text-align: center;
+				}
+		#background4{
+			background-image: url(images/Library.jpg);
+      		height: 768px;
+      		width: 1200px;
+      		background-attachment: fixed;
+      		background-repeat: no-repeat;
+      		background-position: center;
+      		margin-left: auto;
+      		margin-right: auto;
+      		color: white; 
+  		}
+  		 	#container2{
+  		 		width: 450px;
+  		 		background-color: #732d01;
+  		 		position: center;
+  		 		margin-left: auto;
+  		 		margin-right: auto;
+
+  		 	}
