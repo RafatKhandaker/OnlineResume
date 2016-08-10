@@ -1,0 +1,47 @@
+/*Style sheet for online web portfolio */
+
+head{}
+body{
+	background-color: white;
+}
+	#background{
+		background-image: url(images/Profile.jpg);
+		background-repeat: repeat-y;
+		background-position: center;
+		background-attachment: fixed;
+		margin-left: auto;
+		margin-right: auto;
+		height: 610px;
+		width: 1200px;
+
+	}
+
+	 	nav{
+			float: right;
+			padding-bottom: 295px;
+		}
+			nav ul{
+				list-style-type: none;
+			}
+
+		}
+			#aboutme{
+				padding-top: 590px;
+				margin-left: auto;
+				margin-right:auto;
+			} 
+		#background2{
+			background-image: url(images/Profile2.jpg);
+			background-attachment: fixed;
+			background-repeat: no-repeat;
+			background-position: left;
+			margin-left: auto;
+			margin-right: auto;
+			padding-top: 1400px;
+		}
+
+		/* trying to align these images to the right */
+			#skills{
+				width: 1200px;
+				padding-left: 700px;
+			}
