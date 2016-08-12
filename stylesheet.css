@@ -1,24 +1,26 @@
-/*Style sheet for online web portfolio */
+/*Style sheet for online web portfolio
+ written by: Rafat Khandaker | last edited on 8/12/16 */
 
 head{}
 body{
 	background-color: white;
+	min-height: 100%;
 }
 	#background{
 		background-image: url(images/Profile.jpg);
-		background-repeat: repeat-y;
+		background-repeat: no-repeat;
 		background-position: center;
 		background-attachment: fixed;
 		margin-left: auto;
 		margin-right: auto;
-		height: 610px;
+		height: 100%;
 		width: 1200px;
-
 	}
 
 	 	nav{
 			float: right;
-			padding-bottom: 295px;
+			padding-bottom: 100%;
+
 		}
 			nav ul{
 				list-style-type: none;
@@ -26,9 +28,11 @@ body{
 
 		}
 			#aboutme{
-				padding-top: 590px;
+				height: 100%;
+				position: center;
 				margin-left: auto;
-				margin-right:auto;
+				margin-right: auto;
+				margin-top: 50px;
 			} 
 		#background2{
 			background-image: url(images/Profile2.jpg);
@@ -37,13 +41,14 @@ body{
 			background-position: left;
 			margin-left: auto;
 			margin-right: auto;
-			padding-top: 1400px;
+			padding-top: 100%;
 		}
 
 		/* trying to align these images to the right */
 			#skills{
 				padding-left: 700px;
 			}
+
 		#background3{
       		background-image: url(images/nycskyline.jpeg);
       		height: 650px;
