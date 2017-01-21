@@ -1,3 +1,5 @@
 # OnlineResume
 
-MY online Resume Code
+My online resume code which is served at
+
+http://RafatKhandaker.ddns.net  
